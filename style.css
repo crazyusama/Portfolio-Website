@@ -1,0 +1,565 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:rgba(0, 0, 0, 0.7) url(imj1.jfif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-blend-mode:darken ;
+    overflow-x: hidden;
+
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100vw;
+    background-color:#081b29;
+    color: white;
+    overflow: visible;
+
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 550px;
+    position: relative;
+    right: 15%;
+    
+}
+.nav1 a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav2{
+    display: flex;
+   height: 60px;
+   width: 550px;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.nav2 a{
+
+    text-decoration: none;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all 0.6s;
+}
+.nav2 a:hover{
+    color: #0ef;
+}
+
+.home-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+.info{
+  margin-top: 50px;
+  margin-left: 100px;
+    width: 50%;
+
+}
+.info h3{
+    font-size: 25px;
+}
+.info h1{
+    font-size: 40px;
+}
+.text{
+    color:cyan;
+}
+.info p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.imj2{
+    margin-top: 70px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imj2 img{
+    height: 279px;
+    width: 340px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 100px cyan;
+}
+.whatsapp{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    align-items: center;    
+}
+
+.whatsapp a{    
+    position: relative;
+    left: 10px;
+    padding: 4px 4px;
+    border-radius: 25px;
+    border:none;
+    font-size: 29px;
+    background:transparent ;
+    color: cyan;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.more{
+    display: inline-block;
+    padding: 10px 7px;
+    background-color: cyan;
+    margin-top: 20px;
+    margin-left: 96px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+.more a{
+    text-decoration: none;
+    color: black;
+
+}
+.home2{
+    flex-direction: row-reverse;
+    margin-top: 60px;
+}
+.part2 img{
+    height: 220px;
+    width: 250px;
+}
+.more2{
+    margin-left: 0;
+}
+#aboutme{
+    font-size: 35px;
+}
+.me{
+    color: cyan;
+}
+#headin3{
+    font-size: 27px;
+    margin-bottom: 9px;
+}
+.whatsapp a:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+}
+.more a:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+}
+.service-section{
+    margin-top: 70px;
+}
+.services{
+    display: flex;
+}
+.service-name{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    margin-top: 75px;
+}
+.service-name h2 span{
+    color: cyan;
+}
+.service-box{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 15px;
+}
+.box1{
+    background-color: #03111b;
+    color: white;
+    box-shadow: 0 0 5px rgb(16, 96, 116),0 0 25px rgb(18, 115, 133),
+    0 0 50px rgb(16, 84, 88) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height: 220px;
+    width: 320px;
+    border:none;
+    margin-top: 35px;
+    padding: 10px; 
+}
+.box1 i{
+    position: relative;
+    right: 120px;
+    bottom: 27px;
+    color: cyan;
+    font-size: 27px;
+}
+#ii{
+position: relative;
+bottom: 16px;
+   
+}
+.box1 h2{
+    position: relative;
+    right: 79px;
+    margin-bottom: 3px;
+}
+.box1 p{
+    position: relative;
+    left: 9px;
+    font-size: small;
+}
+.box2{
+    margin-left: 70px;
+}
+.box3{
+    margin-left: 88px;
+}
+.box1 a{
+    padding: 10px 10px;
+    background-color: cyan;
+    border-radius: 25px;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan ;
+}
+#anchor{
+    margin-bottom: 5px;
+}
+.nav1 a:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan, 0 0 100px cyan,0 0 200px cyan;
+    background-color: rgb(72, 219, 219);
+    border-radius: 25px;
+}
+.box1 a:hover{
+    background-color: transparent;
+    color: cyan;
+}
+.skill-section{
+    margin-top: 70px;
+}
+.skill-container{
+    display: flex;
+}
+.skill-name{
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    margin-top: 50px;
+}
+.skill-span{
+    color: cyan;
+}
+#skill-i{
+    position: relative;
+    right: 140px;
+}
+#skill-html{
+    position: relative;
+    left: 1px;
+    bottom: 6px;
+}
+#skill-css{
+    position: relative;
+    left: 1px;
+    bottom: 7px;
+}
+#skill-js{
+    position: relative;
+    left:1px ;
+    bottom: 5px;
+}
+.box1-color{
+    box-shadow: 0 0 5px rgb(16, 96, 116),0 0 25px rgb(18, 115, 133),
+    0 0 50px rgb(16, 84, 88)
+    ;
+}
+.footer-container{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    margin-top: 150px;
+ 
+}
+.left-footer{
+    width: 50%;
+     padding: 35px;
+     color: white;
+     margin-top: 50px;
+}
+.rit-footer{
+    width: 50%;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+}
+.left-footer h2{
+     position: relative;
+     left: 34%;
+     bottom: 11%;
+     font-size: 32px;
+
+}
+.left-footer h4{
+    font-size: 19px;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.left-footer p{
+    font-size: medium;
+    color: rgb(221, 202, 202);
+}
+.left-footer2{
+    position: relative;
+    top: 20%;
+    height: 300px;
+}
+.footer-icon{
+    font-size: 25px;
+    display: flex;
+    padding: 15px 15px 15px 0;
+    margin-top: 15px;
+    gap: 10px;
+}
+.footer-icon a{
+    text-decoration: none;
+    color: cyan;
+}
+.mail{
+    margin-top: 20px;
+
+}
+.mail p{
+    color:white;
+}
+.mail p i{
+    padding: 5px 7px 0 0;
+    font-size:15px ;
+    color: cyan;
+}
+.footer-me{
+    color: cyan;
+}
+.subrit-footer{
+    position: relative;
+    top: 14%;
+    left: 20%;
+display: flex;
+flex-direction: column;
+height: 350px;
+width: 60%;
+
+}
+.subrit-footer input{
+    height: 7px;
+    padding: 15px;
+    color: white;
+    background-color: rgb(201, 184, 184);
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 4px;
+}
+#textarea{
+    border: none;
+    padding: 9px;
+    border-radius: 4px;
+    background-color: rgb(201, 184, 184);
+    margin: 0 0 15px 0;
+    color: rgb(122, 116, 116);
+}
+#submit{
+    height: 20px;
+    margin-top: 10px;
+    padding: 15px 15px 25px 15px;
+        color:black;
+        border: none;
+        border-radius: 25px;
+        background-color: cyan;
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+        0 0 50px cyan;
+        cursor: pointer;
+}
+.reserve{
+    height: 60px;
+    width: 100vw;
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent ;
+}
+footer{
+    margin-top: 50px;
+}
+#submit:hover{
+    background-color: transparent;
+    color: cyan;
+}
+.footer-icon a:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,
+    0 0 50px cyan;
+}
+
+@media all and (max-width:760px){
+    .nav2{
+        width: 79%;
+        
+    }
+    .nav2 a{
+        margin-right: 10px;
+        font-size: medium;
+    }
+    .nav1 a{
+        font-size: medium;
+        margin-left: 10px;
+    }
+    .info h3,h2,h1{
+        font-size: 13px;
+    }
+    .info p{
+        font-size: medium;
+    }
+    .imj2 img{
+    width: 250px;
+    height: 200px;
+    }
+    .whatsapp a{
+        margin-top: 14px;
+    }
+    .service-name h2{
+        font-size: 29px;
+    }
+}
+@media all and (max-width:1000px){
+    .box1{
+        height: 220px;
+        width: 270px;
+    }
+    .box1 p{
+        font-size: small;
+    }
+    .box1 h2{
+        font-size: 15px;
+    }
+    .box1 i{
+        font-size: 12px;
+    }
+    .box1 a{
+      font-size: 12px;
+      margin-left: 20px;
+    }
+    #skill-i{
+        font-size: large;
+        margin-left: 90px;
+    }
+}
+@media all and (max-width:800px){
+    .box1{
+        height: 200px;
+        width: 200px;
+    }
+    .box1 p{
+        font-size: 10px;
+    }
+    .box1 h2{
+        font-size: 13px;
+    }
+    .box1 i{
+        font-size: 9px;
+    }
+    .box1 a{
+      font-size: 6px;
+      margin-left: 70px;
+      margin-bottom: 20px;
+    }
+    .ui-ux{margin-left: 69px;
+    margin-bottom: 5px;
+    }
+    #ux-uii{
+        margin-left: 79px;
+        font-size: medium;
+    }
+    #web-dev{
+        margin-left: 79px;
+        font-size: medium;
+        margin-top: 40px;
+    }
+    #webdevv{
+        margin-left: 90px;
+    }
+    #webdev-a{
+        bottom: 70px;
+    }
+    #ii{
+        font-size: medium;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    #skill-i{
+        font-size: large;
+        margin-left: 100px;
+    }
+}
+@media all and (max-width:630px){
+    .box1{
+        height: 170px;
+        width: 160px;
+    }
+    .box1 p{
+        font-size: 8px;
+    }
+    .box1 h2{
+        font-size: 9px;
+    }
+    #ux-uii{
+        margin-left: 110px;
+    }
+    #web-dev{
+        margin-left: 100px;
+    }
+    #ii{
+        margin-left: 105px;
+    }
+    .box1 a{
+      font-size: 5px;
+      margin-left: 100px;
+    }
+    #skill-i{
+        font-size: large;
+        margin-left: 140px;
+    }
+
+}
+
